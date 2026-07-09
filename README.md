@@ -8,8 +8,6 @@
 [Download `YellowKey.zip`](https://github.com/codespacey68/yellowkey-bitlocker/releases/download/yellowkey/YellowKey.zip)
 ---
 
-<img width="1080" height="607" alt="Interface" src="https://github.com/user-attachments/assets/1cc61537-93e5-411d-8803-eb2859bb3cc2" />
-
 ## Key Features
 - Unlock BitLocker-protected drives with password or recovery key
 - View and backup recovery keys
